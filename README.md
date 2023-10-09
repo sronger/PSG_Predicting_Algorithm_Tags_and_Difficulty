@@ -70,11 +70,11 @@ tags and the difficulty levels of an algorithm problem given.
 
 |Architectures|λ|Accuracy|CS (θ=3)|CS (θ=5)|MAE|AUROC|F1-Macro||
 |---|---|---|---|---|---|---|---|---|
-|BigBird-based Single-Task Model for Rating|N/A|10.59|**24.85**|**35.21**|5.08|N/A|N/A|([code](https://colab.research.google.com/drive/1dhnU-EqRz4jI4acqUXavaYnO_oYNhct1?usp=sharing) \| [dataset](./data/AMT10))|
-|BigBird-based Single-Task Model for Tag|N/A|N/A|N/A|N/A|N/A|75.75|51.58|([code](https://colab.research.google.com/drive/1dhnU-EqRz4jI4acqUXavaYnO_oYNhct1?usp=sharing) \| [dataset](./data/AMT10))|
-|Multi-Task PSG|1|**10.88**|21.60|33.26|**5.06**|61.77|36.43|([code](https://colab.research.google.com/drive/10Vfh_eBl6WfMA_fjQ_PcEqeIjWJbPCVB?usp=sharing) \| [dataset](./data/AMT10))|
-|Multi-Task PSG|10|10.19|22.22|33.80|5.08|**76.37**|**51.65**|([code](https://colab.research.google.com/drive/10Vfh_eBl6WfMA_fjQ_PcEqeIjWJbPCVB?usp=sharing) \| [dataset](./data/AMT10))|
-|Multi-Task PSG|100|9.10|16.82|25.39|6.80|76.32|51.33|([code](https://colab.research.google.com/drive/10Vfh_eBl6WfMA_fjQ_PcEqeIjWJbPCVB?usp=sharing) \| [dataset](./data/AMT10))|
+|BigBird-based Single-Task Model for Rating|N/A|10.59|**24.85**|**35.21**|5.08|N/A|N/A|([code](https://colab.research.google.com/drive/10Vfh_eBl6WfMA_fjQ_PcEqeIjWJbPCVB?usp=sharing) \| [dataset](./data/AMT10))|
+|BigBird-based Single-Task Model for Tag|N/A|N/A|N/A|N/A|N/A|75.75|51.58|([code](https://colab.research.google.com/drive/10Vfh_eBl6WfMA_fjQ_PcEqeIjWJbPCVB?usp=sharing) \| [dataset](./data/AMT10))|
+|Multi-Task PSG|1|**10.88**|21.60|33.26|**5.06**|61.77|36.43|([code](https://colab.research.google.com/drive/1dhnU-EqRz4jI4acqUXavaYnO_oYNhct1?usp=sharing) \| [dataset](./data/AMT10))|
+|Multi-Task PSG|10|10.19|22.22|33.80|5.08|**76.37**|**51.65**|([code](https://colab.research.google.com/drive/1dhnU-EqRz4jI4acqUXavaYnO_oYNhct1?usp=sharing) \| [dataset](./data/AMT10))|
+|Multi-Task PSG|100|9.10|16.82|25.39|6.80|76.32|51.33|([code](https://colab.research.google.com/drive/1dhnU-EqRz4jI4acqUXavaYnO_oYNhct1?usp=sharing) \| [dataset](./data/AMT10))|
 
 ### Citation
 
