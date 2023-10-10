@@ -1,10 +1,11 @@
 ## PSG(Problem-Solving Guide) : Predicting Algorithm Tags and Difficulty
 
+[![arXiv](https://img.shields.io/badge/arXiv-2310.05791-b31b1b.svg)](https://arxiv.org/abs/2310.05791)
 
 ### Predicting the Algorithm Tags and Difficulty for Competitive Programming Problems
 
 * This repository provides official PyTorch implementations for <b>Multi-Task PSG(Problem-Solving Guide)</b>.
-* This work is presented at [arXiv](https://arxiv.org/).
+* This work is presented at [arXiv](https://arxiv.org/abs/2310.05791).
 
 ### Authors
 
@@ -81,4 +82,12 @@ tags and the difficulty levels of an algorithm problem given.
 If this work can be useful for your research, please cite our paper:
 
 <pre>
+ @misc{kim2023problemsolving,
+      title={Problem-Solving Guide: Predicting the Algorithm Tags and Difficulty for Competitive Programming Problems}, 
+      author={Juntae Kim and Eunjung Cho and Dongwoo Kim and Dongbin Na},
+      year={2023},
+      eprint={2310.05791},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 </pre>
