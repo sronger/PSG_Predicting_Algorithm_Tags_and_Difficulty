@@ -5,7 +5,6 @@
 ### Predicting the Algorithm Tags and Difficulty for Competitive Programming Problems
 
 * This repository provides official PyTorch implementations for <b>Multi-Task PSG(Problem-Solving Guide)</b>.
-* This work is presented at [arXiv](https://arxiv.org/abs/2310.05791).
 
 ### Authors
 
@@ -42,8 +41,21 @@ tags and the difficulty levels of an algorithm problem given.
   * [BigBird-based Single-Task Model](https://colab.research.google.com/drive/10Vfh_eBl6WfMA_fjQ_PcEqeIjWJbPCVB?usp=sharing)
      * In the config, you can choose 'tag' or 'rating' for the task.
 
-### Datasets
+### Preprocessing
+* The **AMT dataset** has been processed using our preprocessing techniques.
+* The technical details are as follows.
+  * Substitute exponential notation.
+    * 10^6 -> 1000000
+  * Insert spaces between the dollar signs.
+    * $$$n$$$ -> $$$ n $$$
+  * Convert to lowercase.
+    * This is an interactive task. -> this is an interactive task.
+  * Calculate the expression. (optional)
+    * 2 \cdot 100000 -> 200000
+  * Remove stopwords using the nltk library.
+  * Lemmatize using the nltk library.
 
+### Datasets
 * All data was collected from the [Codeforces website](https://codeforces.com/).
     * The tag distribution is as follows.
  
@@ -57,6 +69,7 @@ tags and the difficulty levels of an algorithm problem given.
          <img src="https://github.com/sronger/bigbird-test/assets/79131091/32b7a988-00e8-4bb0-bbfd-8ec96f4343ff" width="90%" >
       
     * The rating distribution is as follows.
+      
        *  Top-5 Frequent Categories Difficulty distribution
           <img src="https://github.com/sronger/bigbird-test/assets/79131091/2a87492f-be17-4064-9bcf-77b8bdbffccd" width="90%" >
           
