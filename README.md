@@ -32,7 +32,7 @@ tags and the difficulty levels of an algorithm problem given.
 
 ### Model perfomance comparison
 
-<img src="https://github.com/sronger/bigbird-test/assets/79131091/26f2ae33-39dd-4b4b-a38c-8ae9f1256147" width="90%">
+<img src="./resources/Model_perfomance_comparison.png" width="90%">
 
 ### Source Codes
 * Our code can be run on Google Colab.
@@ -60,24 +60,24 @@ tags and the difficulty levels of an algorithm problem given.
     * The tag distribution is as follows.
  
       * Top-5 Frequent Categories
-         <img src="https://github.com/sronger/bigbird-test/assets/79131091/f0b02c4c-c80b-49a7-9433-e506f67eb135" width="90%" height="120%">
+         <img src="./resources/Top-5_Frequent_Categories.png" width="90%" height="120%">
          
       * Selected-10 Categories
-         <img src="https://github.com/sronger/bigbird-test/assets/79131091/82641cc6-a136-4b61-8dec-263ec5d034ad" width="90%" height="110%" >
+         <img src="./resources/Selected-10_Categories.png" width="90%" height="110%" >
 
       * Top-20 Frequent Categories (except constructive algorithms and *special)
-         <img src="https://github.com/sronger/bigbird-test/assets/79131091/32b7a988-00e8-4bb0-bbfd-8ec96f4343ff" width="90%" >
+         <img src="./resources/Top-20_Frequent_Categories.png" width="90%" >
       
     * The rating distribution is as follows.
       
        *  Top-5 Frequent Categories Difficulty distribution
-          <img src="https://github.com/sronger/bigbird-test/assets/79131091/2a87492f-be17-4064-9bcf-77b8bdbffccd" width="90%" >
+          <img src="./resources/Top-5_Frequent_Categories_Difficulty_distribution.png" width="90%" >
           
        *  Selected-10 Categories Difficulty distribution
-          <img src="https://github.com/sronger/bigbird-test/assets/79131091/580b52e3-652b-42dc-a40d-808b09ed5e21" width="90%" >
+          <img src="./resources/Selected-10_Categories_Difficulty_distribution.png" width="90%" >
           
        *  Top-20 Frequent Categories Difficulty distribution
-          <img src="https://github.com/sronger/bigbird-test/assets/79131091/cfca3991-97a0-4ad6-b5c1-2f408d0357f3" width="90%" >
+          <img src="./resources/Top-20_Frequent_Categories_Difficulty_distribution.png" width="90%" >
           
 
 ### Classification Models Performance
